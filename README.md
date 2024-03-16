@@ -1,1 +1,1 @@
-# my-allocator
+# allocator
