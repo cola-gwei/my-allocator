@@ -12,5 +12,3 @@ file(GLOB SRC "*.cpp")
 message(STATUS "find files ${SRC}")
 
 add_executable(allocator ${SRC})
-
-target_include_directories(allocator PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
